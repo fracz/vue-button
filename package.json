@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "postinstall": "npm run build",
-    "start": "serve"
+    "start": "vue-cli-service serve --port=80"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
